@@ -20,7 +20,10 @@
     self.searchController = [[UISearchController alloc] initWithSearchResultsController:[[UIViewController alloc] init]];
     self.navigationItem.searchController = self.searchController;
     self.navigationItem.hidesSearchBarWhenScrolling = NO;
-
+    
+//    self.edgesForExtendedLayout = YES;
+//    self.extendedLayoutIncludesOpaqueBars = YES;
+    
 //    [self.navigationController.navigationBar setTranslucent:YES];
     [self.navigationController.navigationBar setTranslucent:NO];
 }
